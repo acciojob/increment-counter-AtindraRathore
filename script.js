@@ -1,7 +1,8 @@
 //your JS code here. If required.
+let counter = document.getElementById('counter');
 let value = 0;
 function display(){
-	 value++;
-	alert(value);
-	document.getElementById('counter').innerHTML = value;
+	 alert("UnIncremented value "+value);
+	value++;
+	counter.innerText = value;
 }
